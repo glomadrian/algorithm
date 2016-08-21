@@ -13,10 +13,12 @@ package io.github.glomadrian.algorithms.string;/*
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *
- * https://www.hackerrank.com/challenges/reduced-string
  */
 
-
+/**
+ * Super Reduced String
+ * https://www.hackerrank.com/challenges/reduced-string
+ */
 public class SuperReducedString {
 
     private static final String EMPTY = "Empty String";
