@@ -1,4 +1,5 @@
-package io.github.glomadrian.algorithms.string;/*
+package io.github.glomadrian.algorithms.string;
+/*
  * Copyright (C) 2016 Adrián García Lomas.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,7 +13,6 @@ package io.github.glomadrian.algorithms.string;/*
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
-
  */
 
 /**

@@ -1,4 +1,5 @@
-package io.github.glomadrian.algorithms.warmup;/*
+package io.github.glomadrian.algorithms.warmup;
+/*
  * Copyright (C) 2016 Adrián García Lomas.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
