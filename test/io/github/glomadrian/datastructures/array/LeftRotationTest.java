@@ -1,4 +1,9 @@
-package io.github.glomadrian.algorithms.string;
+package io.github.glomadrian.datastructures.array;
+
+import org.junit.Test;
+
+import static org.junit.Assert.*;
+
 /*
  * Copyright (C) 2016 Adrián García Lomas.
  *
@@ -15,22 +20,20 @@ package io.github.glomadrian.algorithms.string;
  * limitations under the License.
  */
 
-/**
- * Camel Case
- * Difficulty: Easy
- * https://www.hackerrank.com/challenges/camelcase
- */
-public class CamelCase {
+public class LeftRotationTest {
 
-    private static final int FIRST_LOWER_CASE_ASCII = 97;
+    @Test
+    public void testOneRotation() {
+        int[] numbers = new int[]{1,2,3,4,5};
+        int[] excepted  = new int[]{2,3,4,5,1};
+        LeftRotation leftRotation = givenALeftRotation();
 
-    public int execute(String word) {
-        int numberOfWords = 1;
-        for (char character : word.toCharArray()) {
-            if (character < FIRST_LOWER_CASE_ASCII) {
-                numberOfWords++;
-            }
-        }
-        return numberOfWords;
+        int[] results = leftRotation.execute(numbers, 1);
+
+        assertArrayEquals(excepted, results);
+    }
+
+    private LeftRotation givenALeftRotation(){
+        return new LeftRotation();
     }
 }

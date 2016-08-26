@@ -16,21 +16,10 @@ package io.github.glomadrian.algorithms.string;
  */
 
 /**
- * Camel Case
- * Difficulty: Easy
- * https://www.hackerrank.com/challenges/camelcase
+ * Richie Rich
+ * Difficulty: Medium
+ * https://www.hackerrank.com/challenges/richie-rich
  */
-public class CamelCase {
-
-    private static final int FIRST_LOWER_CASE_ASCII = 97;
-
-    public int execute(String word) {
-        int numberOfWords = 1;
-        for (char character : word.toCharArray()) {
-            if (character < FIRST_LOWER_CASE_ASCII) {
-                numberOfWords++;
-            }
-        }
-        return numberOfWords;
-    }
+public class RichieRich {
+    //TODO
 }

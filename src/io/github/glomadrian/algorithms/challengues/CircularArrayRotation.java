@@ -29,7 +29,6 @@ public class CircularArrayRotation {
     private int[] rotatedNumbers;
     private int rotations;
 
-
     public CircularArrayRotation(int[] numbers, int rotations) {
         this.numbers = numbers;
         this.rotations = rotations;
